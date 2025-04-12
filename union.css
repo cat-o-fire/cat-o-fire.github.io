@@ -1,3 +1,62 @@
+body {
+	color: black;
+	background-color: grey;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	font-family: "Brush script";
+}
 h1 {
-	background-color: blue;
+	margin: 0;
+}
+header {
+	margin: 0;
+	color: white;
+	background-color: black;
+	border-bottom: 10px;
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	padding: 30px;
+	height: 5vw;
+}
+.headImage {
+	height: 100%;
+	filter: invert(1);
+	margin-top: 0px;
+}
+#headGraphics {
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+#headImageOne {
+	float: left;
+}
+#headImageTwo {
+	float: right;
+}
+#headText {
+	max-width: 80%;
+	position: relative;
+	font-size: 1.5vw;
+	left: 1%;
+	top: 40%;
+}
+#sideBar {
+	overflow-y: scroll;
+	float: left;
+	position: absolute;
+}
+#welcomeText {
+	
+}
+#mainNavBody {
+
+}
+.mainNavButton {
+	float: left;
+
 }
