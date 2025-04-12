@@ -51,12 +51,23 @@ header {
 	position: absolute;
 }
 #welcomeText {
-	
+	margin: auto;
+  text-align: center;
+	padding-bottom: 1vw;
 }
 #mainNavBody {
-
+	padding-top: 5vh;
+	width: 90%;
+	margin: auto;
+	font-size: 1vw
 }
 .mainNavButton {
-	float: left;
-
+	text-align: center;
+	background-color: rgb(150,150,150);
+	margin: 2vh;
+	padding: 0.3vh;
+	border: lightgrey;
+	border-width: 3px;
+	border-style: solid;
+	font-family: georgia, sans-seriff;
 }
