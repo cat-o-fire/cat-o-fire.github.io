@@ -68,7 +68,7 @@ a {
 }
 .mainNavButton {
 	float: left;
-	width: 100%;
+	width: 99%;
 	text-align: center;
 	background-color: rgb(150,150,150);
 	margin: 1vh;
@@ -77,4 +77,7 @@ a {
 	border-width: 3px;
 	border-style: solid;
 	font-family: georgia, sans-seriff;
+}
+a:hover {
+	background-color: rgb(100,100,100)
 }
