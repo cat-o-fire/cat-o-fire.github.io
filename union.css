@@ -22,6 +22,11 @@ header {
 	padding: 30px;
 	height: 5vw;
 }
+a {
+	color: inherit;
+	background-color: inherit;
+  text-decoration: inherit;
+}
 .headImage {
 	height: 100%;
 	filter: invert(1);
@@ -62,9 +67,11 @@ header {
 	font-size: 1vw
 }
 .mainNavButton {
+	float: left;
+	width: 100%;
 	text-align: center;
 	background-color: rgb(150,150,150);
-	margin: 2vh;
+	margin: 1vh;
 	padding: 0.3vh;
 	border: lightgrey;
 	border-width: 3px;
