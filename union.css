@@ -68,7 +68,7 @@ a {
 }
 .mainNavButton {
 	float: left;
-	width: 99%;
+	width: 100%;
 	text-align: center;
 	background-color: rgb(150,150,150);
 	margin: 1vh;
