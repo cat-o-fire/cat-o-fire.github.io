@@ -78,6 +78,16 @@ a {
 	border-style: solid;
 	font-family: georgia, sans-seriff;
 }
-a:hover {
+.mainNavButton:hover {
+	background-color: rgb(100,100,100)
+}
+.RDLink {
+	font-family: 'Courier New', Courier, monospace;
+	border: solid;
+	padding: 0.5vh;
+	width: 1000px;
+	margin: 30px;
+}
+.RDLink:hover {
 	background-color: rgb(100,100,100)
 }
