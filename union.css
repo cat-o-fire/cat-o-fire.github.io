@@ -16,11 +16,9 @@ header {
 	margin: 0;
 	color: white;
 	background-color: black;
-	border-bottom: 10px;
-	border-bottom-style: solid;
-	border-color: lightgrey;
+	border-bottom: 10px solid lightgrey;
 	padding: 30px;
-	height: 5vw;
+	height: 4vw;
 }
 a {
 	color: inherit;
@@ -92,8 +90,14 @@ a {
 	background-color: rgb(100,100,100)
 }
 #RDRSp {
+	float: left;
 	width: 50%;
 }
 #RDRSu {
+	float: right;
 	width: 50%;
+}
+.RDHeader {
+	text-align: center;
+	margin-top: 2vh;
 }
