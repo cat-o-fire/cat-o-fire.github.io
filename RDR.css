@@ -1,0 +1,22 @@
+.RDLink {
+	font-family: 'Courier New', Courier, monospace;
+	border: solid;
+	padding: 0.5vh;
+	width: 100%-40px;
+	margin: 20px;
+}
+.RDLink:hover {
+	background-color: rgb(100,100,100)
+}
+#RDRSp {
+	float: left;
+	width: 50%;
+}
+#RDRSu {
+	float: right;
+	width: 50%;
+}
+.RDHeader {
+	text-align: center;
+	margin-top: 2vh;
+}
